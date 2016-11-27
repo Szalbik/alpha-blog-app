@@ -1,13 +1,13 @@
-$navbar-default-bg: #5d9b17;
+//$navbar-default-bg: #5d9b17;
 $navbar-default-link-color: #ededed;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 .navbar {
-  -webkit-box-shadow: 4px 13px 20px -3px rgba(110,173,107,1);
-  -moz-box-shadow: 4px 13px 20px -3px rgba(110,173,107,1);
-  box-shadow: 4px 13px 20px -3px rgba(110,173,107,1);
+  -webkit-box-shadow: 4px 13px 20px -3px rgb(102, 102, 102);
+  -moz-box-shadow: 4px 13px 20px -3px rgb(102, 102, 102);
+  box-shadow: 4px 13px 20px -3px rgb(102, 102, 102);
 }
 
 #logo {
@@ -20,7 +20,7 @@ $navbar-default-link-color: #ededed;
 }
 
 .jumbotron {
-  background-image: asset_url('mountain-landscape');
+  background-image: asset_url('macbook');
   background-size: cover;
   height: 500px;
   margin: 5em 0 8em 0;
@@ -37,6 +37,6 @@ $navbar-default-link-color: #ededed;
   -webkit-box-shadow: -1px -11px 14px -2px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px -11px 14px -2px rgba(0,0,0,0.75);
   box-shadow: -1px -11px 14px -2px rgba(0,0,0,0.75);
-  margin-top: auto;
+  margin-top: 50px;
   margin-bottom: 0;
 }
