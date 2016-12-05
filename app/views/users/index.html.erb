@@ -8,6 +8,10 @@
           <li><%= link_to gravatar_for(user), user_path(user), class: "img-circle" %></li>
           <li class="user-name"><%= link_to user.username, user_path(user) %></li>
           <li><%= pluralize(user.articles.count, "article") %></li>
+          <li><% if logged_in? && current_user.admin? %>
+            <%= link_to "Delete this user", user_path(user), method: :delete,
+                        data: {confirm: "Are you sure to delete user and all user articles?!"} %>
+                <% end %></li>
         </div>
       </ul>
   <% end %>
