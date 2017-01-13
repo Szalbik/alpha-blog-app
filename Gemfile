@@ -37,6 +37,7 @@ group :test do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'selenium-webdriver'
+  gem 'faker'
 end
 
 group :development, :test do
@@ -48,6 +49,7 @@ group :development, :test do
   # MY OWN GEMS FOR TESTING
   gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
   gem 'factory_girl_rails'
+  gem 'capybara'
 end
 
 group :development do

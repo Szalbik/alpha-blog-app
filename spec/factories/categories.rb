@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :category do
-    name "Sports"
+    name { Faker::Name.name }
   end
 end
