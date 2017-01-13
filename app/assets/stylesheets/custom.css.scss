@@ -75,3 +75,14 @@ $navbar-default-link-color: #ededed;
     box-shadow: -1px 0px 20px 5px rgba(0,0,0,0.75);
   }
 }
+
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
